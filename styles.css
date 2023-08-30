@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+
+/*---------------------------------------NAVBAR START--------------------------------------------*/
+
+}
+.container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: ffff    ;
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-right: 3rem;
+    font-weight: 700;   
+}
+.container img{
+    padding-left: 3rem;
+    height: 60px;
+}
+
+/*---------------------------------------NAVBAR END--------------------------------------------*/
+/*---------------------------------------DESC START--------------------------------------------*/
+
+.desc{
+    background-color: rgb(224, 248, 240);
+    height: 300px;
+    padding: 5.7rem 4rem;
+}
+.desc p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.desc button{
+    background-color: rgb(81, 241, 185);
+    border-radius: 3rem;
+    font-weight: 600;
+    width: 130px;
+    height: 50px;
+    border-color: rgb(81, 241, 185) ;
+    border-style: none;
+}
+
+/*---------------------------------------DESC END--------------------------------------------*/
+/*---------------------------------------BLOC 1 START--------------------------------------------*/
+
+.bloc1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 4rem;
+    height: 300px;
+    width: 100%;
+
+}
+.bloc1 img{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: end;
+    padding-top:0;
+}
+.bloc1 h2{
+    color: blue;
+    padding-bottom: 2rem;
+}
+
+.bloc1 p{
+    padding: 0.7rem 0rem;
+}
+.bloc1 button{
+    color:blue ;
+    background: none;
+    border-style: none;
+    font-weight: 600;
+}
+.bloc1 button::before{
+    font-family: font awesome;
+    content: "\f061";
+}
+
+/*---------------------------------------BLOC 1 END--------------------------------------------*/
+/*---------------------------------------INSIGHT BOX START--------------------------------------------*/
+
+.insight_box{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 5.7rem 4rem;
+    width: 100%;
+}
+.box{
+    background-color:rgb(122, 43, 226); 
+    gap: 1rem;
+    width: 30%; /* Largeur de chaque boîte */
+    margin: 10px; /* Marge pour séparer les boîtes */
+    padding: 10px; /* Remplissage à l'intérieur de chaque boîte */
+    
+}
+
+/*---------------------------------------INSIGHT BOX END--------------------------------------------*/
